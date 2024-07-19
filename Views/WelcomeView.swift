@@ -13,7 +13,8 @@ struct WelcomeView: View {
         ZStack {
             LinearGradient(gradient:
                             Gradient(colors: [.blue.opacity(0.8), .green.opacity(0.8), .orange.opacity(0.8), .indigo.opacity(0.8)]),  startPoint: .topLeading, endPoint: .bottomTrailing)
-        
+
+            
             VStack {
                 Spacer()
                 
@@ -47,7 +48,6 @@ struct WelcomeView: View {
                         .background(.white.opacity(0.75))
                         .cornerRadius(20)
                 })
-                
                 Spacer()
             }
         }
